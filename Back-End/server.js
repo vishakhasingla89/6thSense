@@ -37,7 +37,7 @@ app.use(session({
   name: 'sid',
   resave: false,
   saveUninitialized: false,
-  secret: 'secret message',
+  secret: '{Enter_your_secret_message}',
   cookie: {
       maxAge: 3600000
   },
