@@ -43,7 +43,7 @@ class Premium extends Component {
                         
                         </div>
                     <div className="checkoutBut">
-                        <StripeCheckout stripeKey="pk_test_LDJHAWzABJtdyOsr8atpuqWZ00hx1AmfFc" token={this.handleToken} 
+                        <StripeCheckout stripeKey="{Enter_your_API_Key}" token={this.handleToken} 
                                 amount={this.state.cost*100}
                                 currency='inr' 
                                 name='6th Sense'
